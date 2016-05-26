@@ -61,7 +61,7 @@ class WeatherService {
 
   async getWeatherForecastFromApiAsync(locationId: string) {
     const url = `${weatherApiUrl}/forecast/daily?id=${locationId}&cnt=7&units=metric&appid=${weatherApiKey}`;
-
+    console.log("    ly________ly    "+url);
     try {
       let response = await fetch(url);
       const result = await response.json();

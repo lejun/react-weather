@@ -38,6 +38,6 @@ npm-debug.log
 
 # Custom
 #
-/release
+#/release
 /logs
 /.vscode
